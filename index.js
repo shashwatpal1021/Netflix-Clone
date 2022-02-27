@@ -18,7 +18,7 @@ function selectItem(e) {
 function removeBorder() {
 	tabItems.forEach(item => {
 		item.classList.remove('tab-border');
-	});
+    });
 }
 
 // Remove show class from all content items
