@@ -152,6 +152,11 @@ footer{
 	right: 0;
 	transform: translate(-50%, -70%);
 }
+.Home{
+	margin: 3px;
+	margin-right: 80px;	
+	cursor: pointer;
+}
 
 .showcase-content {
 	position: relative;
@@ -224,6 +229,7 @@ footer{
 	align-items: center;
 	justify-content: center;
 	text-align: center;
+	
 }
 
 .tabs p {
@@ -335,17 +341,10 @@ footer{
   
 }
 .footer-contents ol{
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: flex-start;
-  margin-right: 0;
-  padding-left: 1% ;
   color: white;
-  transform: translate(-0%,0%);
 }
 .footer-contents ul{
   display: flex;
-  flex-flow: row no wrap;
   justify-content: flex-end;
   color: white;
   
@@ -355,7 +354,6 @@ footer{
   display: block;
   color: rgb(255, 253, 253);
   margin: 3px;
-  transform: translate(-0%,0%);
  
 }
 .footer-contents span{
